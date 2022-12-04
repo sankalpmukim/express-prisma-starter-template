@@ -3,7 +3,7 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../node_modules/.prisma/client/index.js" // <-- generate in your package node_modules, not the root
+  output   = "../node_modules/.prisma/client" // <-- generate in your package node_modules, not the root
 }
 
 datasource db {
